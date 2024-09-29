@@ -13,8 +13,8 @@ function App() {
 
   return (
     <div className="App">
-      work
       <button onClick={onClose}>Закрыть</button>
+      <a>{window.Telegram.WebApp.initDataUnsafe?.user?.username}</a>
     </div>
   );
 }
